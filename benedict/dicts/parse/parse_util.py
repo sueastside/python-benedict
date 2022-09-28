@@ -6,12 +6,12 @@ from benedict.utils import type_util
 from datetime import datetime
 from dateutil import parser as date_parser
 from decimal import Decimal, DecimalException
-from MailChecker import MailChecker
-from phonenumbers import phonenumberutil, PhoneNumberFormat
-from slugify import slugify
+#from MailChecker import MailChecker
+#from phonenumbers import phonenumberutil, PhoneNumberFormat
+#from slugify import slugify
 
-import ftfy
-import phonenumbers
+#import ftfy
+#import phonenumbers
 import re
 
 
