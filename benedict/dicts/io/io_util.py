@@ -6,7 +6,7 @@ from benedict.serializers import (
     get_serializers_extensions,
 )
 
-import fsutil
+#import fsutil
 
 
 def autodetect_format(s):
