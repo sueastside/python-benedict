@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+'''
 from benedict.serializers.abstract import AbstractSerializer
 from benedict.serializers.base64 import Base64Serializer
 from benedict.serializers.csv import CSVSerializer
@@ -57,7 +57,15 @@ _SERIALIZERS = {
 }
 
 _SERIALIZERS_EXTENSIONS = [f".{extension}" for extension in _SERIALIZERS.keys()]
+'''
 
+from benedict.serializers.json import JSONSerializer
+
+_JSON_SERIALIZER = JSONSerializer()
+_SERIALIZERS = {
+    "json": _JSON_SERIALIZER,
+}
+_SERIALIZERS_EXTENSIONS = [f".{extension}" for extension in _SERIALIZERS.keys()]
 
 def get_format_by_path(path):
     path = path.lower()
