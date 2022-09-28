@@ -4,7 +4,7 @@ from benedict.core.rename import rename
 from benedict.core.traverse import traverse
 from benedict.utils import type_util
 
-from slugify import slugify
+#from slugify import slugify
 
 import re
 
